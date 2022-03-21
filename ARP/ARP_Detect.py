@@ -20,3 +20,4 @@ def processPacket(packet):
         else:
             IP_MAC_Map[src_MAC] = src_IP
 sniff(count=0, filter="arp", store = 0, prn = processPacket)
+ 
