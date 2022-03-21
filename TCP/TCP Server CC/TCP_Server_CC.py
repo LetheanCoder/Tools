@@ -21,3 +21,4 @@ while command != "exit":
 
 connectionSocket.shutdown(SHUT_RDWR)
 connectionSocket.close()
+ 
